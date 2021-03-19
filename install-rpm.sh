@@ -4,8 +4,8 @@ set -e
 HEIGHT=15
 WIDTH=40
 CHOICE_HEIGHT=4
-BACKTITLE="Backtitle here"
-TITLE="Title here"
+BACKTITLE="F5 Automation Toolchain RPM Install"
+TITLE="F5 Automation Toolchain Install"
 MENU="Choose one of the following options:"
 
 OPTIONS=(1 "Declarative Onboading"
