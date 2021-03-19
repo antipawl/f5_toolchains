@@ -23,15 +23,15 @@ CHOICE=$(dialog --clear \
 clear
 case $CHOICE in
         1)
-            echo "You chose Option DO"
+            echo "You chose to install DO and package $3"
 ATOOL=f5-declar
             ;;
         2)
-            echo "You chose Option AS3"
+            echo "You chose Option AS3 and package $3"
 ATOOL=f5-apps
             ;;
         3)
-            echo "You chose Option Telemetry Services"
+            echo "You chose Option TS and option $3"
 ATOOL=f5-tele
             ;;
 esac
