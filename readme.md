@@ -1,7 +1,5 @@
 install-rpm.sh - Documentation
 
-Installing AS3 using a shell script¶
-
 You can also use the following shell script to upload and install the target RPM to the BIG-IP system (the script first uninstalls any existing RPM packages on the BIG-IP).
 
 To use this script, you must have both cURL and jq installed.
