@@ -1,10 +1,22 @@
+
+
+
+
 install-rpm.sh - Documentation
 
 You can also use the following shell script to upload and install the target RPM to the BIG-IP system (the script first uninstalls any existing RPM packages on the BIG-IP).
 
 To use this script, you must have both cURL and jq installed.
 
-1) Copy the script install-rpm.sh to a new file on any system with a UNIX shell installed. We name the file install-rpm.sh.
+cURL-
+https://curl.se/download.html
+
+jq-
+https://stedolan.github.io/jq/download/
+
+1) From the machine that has access to the F5 change the current working directory to the location where you want the cloned directory.
+2) Type git clone, and then paste the URL of the repo 
+      git clone https://github.com/
 
 2) Make the new file an executable script with the following command (use the name you gave the script if different):
    chmod +x install-rpm.sh
