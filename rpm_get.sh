@@ -8,9 +8,9 @@ BACKTITLE="F5 Automation Toolchain RPM Package Install"
 TITLE="F5 Automation Toolchain Download Tool"
 MENU="Choose one of the following options:"
 
-OPTIONS=(1 "Declarative Onboading"
-         2 "Application Services 3"
-         3 "Telemetry Services")
+OPTIONS= (1 "Declarative Onboading"
+          2 "Application Services 3"
+          3 "Telemetry Services" )
 
 CHOICE=$(dialog --clear \
                 --backtitle "$BACKTITLE" \
